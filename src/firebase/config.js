@@ -2,18 +2,17 @@ import  firebase from 'firebase/app';
 import 'firebase/storage';
 import 'firebase/firestore';
 
-/* eslint-disable no-undef */
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyCxhQmVzL4l0OhSomqQzwF98A5V4aEpV1A",
-    authDomain: "ninja-firegram-a5a5d.firebaseapp.com",
-    projectId: "ninja-firegram-a5a5d",
-    storageBucket: "ninja-firegram-a5a5d.appspot.com",
-    messagingSenderId: "154530926275",
-    appId: "1:154530926275:web:8785d63de50f6123a45c76"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+  apiKey: "AIzaSyCvw8LPvFWELt_X3Y1xKPLbZ_g6EQ3RKnc",
+  authDomain: "gram-firebase.firebaseapp.com",
+  projectId: "gram-firebase",
+  storageBucket: "gram-firebase.appspot.com",
+  messagingSenderId: "65226373867",
+  appId: "1:65226373867:web:b9685f2f656000563c9cae"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 
   const projectStorage = firebase.storage();
  const projectFirestore = firebase.firestore();  
